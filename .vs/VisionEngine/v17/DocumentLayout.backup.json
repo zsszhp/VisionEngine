@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0ADA56-1FC2-466A-8C60-FE5EC8F0F11E}|VisionEngine.vcxproj|D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\VisionEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B0ADA56-1FC2-466A-8C60-FE5EC8F0F11E}|VisionEngine.vcxproj|solutionrelative:VisionEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0ADA56-1FC2-466A-8C60-FE5EC8F0F11E}|VisionEngine.vcxproj|D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\VisionTypes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B0ADA56-1FC2-466A-8C60-FE5EC8F0F11E}|VisionEngine.vcxproj|solutionrelative:VisionTypes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0ADA56-1FC2-466A-8C60-FE5EC8F0F11E}|VisionEngine.vcxproj|D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\VisionEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B0ADA56-1FC2-466A-8C60-FE5EC8F0F11E}|VisionEngine.vcxproj|solutionrelative:VisionEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0ADA56-1FC2-466A-8C60-FE5EC8F0F11E}|VisionEngine.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.43.34808\\INCLUDE\\VARIANT||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0ADA56-1FC2-466A-8C60-FE5EC8F0F11E}|VisionEngine.vcxproj|D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\export_onnx.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8B0ADA56-1FC2-466A-8C60-FE5EC8F0F11E}|VisionEngine.vcxproj|solutionrelative:export_onnx.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0ADA56-1FC2-466A-8C60-FE5EC8F0F11E}|VisionEngine.vcxproj|D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B0ADA56-1FC2-466A-8C60-FE5EC8F0F11E}|VisionEngine.vcxproj|solutionrelative:dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0ADA56-1FC2-466A-8C60-FE5EC8F0F11E}|VisionEngine.vcxproj|D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B0ADA56-1FC2-466A-8C60-FE5EC8F0F11E}|VisionEngine.vcxproj|solutionrelative:pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0ADA56-1FC2-466A-8C60-FE5EC8F0F11E}|VisionEngine.vcxproj|D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\CMakeLists.txt||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{8B0ADA56-1FC2-466A-8C60-FE5EC8F0F11E}|VisionEngine.vcxproj|solutionrelative:CMakeLists.txt||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "variant",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\variant",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\variant",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-07T14:28:13.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "export_onnx.py",
+              "DocumentMoniker": "D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\export_onnx.py",
+              "RelativeDocumentMoniker": "export_onnx.py",
+              "ToolTip": "D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\export_onnx.py",
+              "RelativeToolTip": "export_onnx.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-07T04:14:50.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VisionTypes.h",
+              "DocumentMoniker": "D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\VisionTypes.h",
+              "RelativeDocumentMoniker": "VisionTypes.h",
+              "ToolTip": "D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\VisionTypes.h",
+              "RelativeToolTip": "VisionTypes.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-06T13:28:07.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "pch.cpp",
+              "DocumentMoniker": "D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\pch.cpp",
+              "RelativeDocumentMoniker": "pch.cpp",
+              "ToolTip": "D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\pch.cpp",
+              "RelativeToolTip": "pch.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-06T12:34:15.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "CMakeLists.txt",
+              "ToolTip": "D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\CMakeLists.txt",
+              "RelativeToolTip": "CMakeLists.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-05T17:13:56.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VisionEngine.h",
+              "DocumentMoniker": "D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\VisionEngine.h",
+              "RelativeDocumentMoniker": "VisionEngine.h",
+              "ToolTip": "D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\VisionEngine.h",
+              "RelativeToolTip": "VisionEngine.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-05T16:38:40.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VisionEngine.cpp",
+              "DocumentMoniker": "D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\VisionEngine.cpp",
+              "RelativeDocumentMoniker": "VisionEngine.cpp",
+              "ToolTip": "D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\VisionEngine.cpp",
+              "RelativeToolTip": "VisionEngine.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-05T16:38:26.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dllmain.cpp",
+              "DocumentMoniker": "D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\dllmain.cpp",
+              "RelativeDocumentMoniker": "dllmain.cpp",
+              "ToolTip": "D:\\work\\li_sheng\\Carton_Palletizing_Counting\\code\\c\u002B\u002B\\VisionEngine\\dllmain.cpp",
+              "RelativeToolTip": "dllmain.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-05T16:36:13.678Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
