@@ -147,6 +147,7 @@
     <ClInclude Include="VisionEngine.h" />
     <ClInclude Include="VisionTypes.h" />
     <ClInclude Include="YoloEngine.h" />
+    <ClInclude Include="YoloTypes.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />

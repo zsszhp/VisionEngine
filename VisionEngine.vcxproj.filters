@@ -32,6 +32,9 @@
     <ClInclude Include="YoloEngine.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="YoloTypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
