@@ -146,6 +146,7 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="VisionEngine.h" />
     <ClInclude Include="VisionTypes.h" />
+    <ClInclude Include="YoloEngine.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
@@ -156,6 +157,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="VisionEngine.cpp" />
+    <ClCompile Include="YoloEngine.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="CMakeLists.txt" />

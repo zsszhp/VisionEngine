@@ -29,6 +29,9 @@
     <ClInclude Include="VisionTypes.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="YoloEngine.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -38,6 +41,9 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="YoloEngine.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
