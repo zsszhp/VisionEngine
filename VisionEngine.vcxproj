@@ -129,7 +129,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\Users\zzz\AppData\Local\Programs\MVTec\HALCON-23.11-Progress\lib\x64-win64;C:\Users\zzz\AppData\Local\Programs\MVTec\HALCON-23.11-Progress;C:\A\onnxruntime-win-x64-gpu-1.22.0\include;C:\A\opencv\build\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\zzz\AppData\Local\Programs\MVTec\HALCON-23.11-Progress\include\halconcpp;C:\Users\zzz\AppData\Local\Programs\MVTec\HALCON-23.11-Progress\lib\x64-win64;C:\Users\zzz\AppData\Local\Programs\MVTec\HALCON-23.11-Progress;C:\A\onnxruntime-win-x64-gpu-1.22.0\include;C:\A\opencv\build\include;C:\Users\zzz\AppData\Local\Programs\MVTec\HALCON-23.11-Progress\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -138,27 +138,39 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <AdditionalLibraryDirectories>C:\A\onnxruntime-win-x64-gpu-1.22.0\lib;C:\Users\zzz\AppData\Local\Programs\MVTec\HALCON-23.11-Progress;C:\Users\zzz\AppData\Local\Programs\MVTec\HALCON-23.11-Progress\lib\x64-win64;C:\A\opencv\build\x64\vc16\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>halconcpp.lib;opencv_world4100.lib;onnxruntime.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>halconcpp.lib;opencv_world4100.lib;onnxruntime.lib;halcon.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BoxProcessor.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="HalconDecoder.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="OBBCropper.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="VisionAPI.h" />
     <ClInclude Include="VisionEngine.h" />
+    <ClInclude Include="VisionResult.h" />
     <ClInclude Include="VisionTypes.h" />
     <ClInclude Include="YoloEngine.h" />
     <ClInclude Include="YoloTypes.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BoxProcessor.cpp" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="HalconDecoder.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="OBBCropper.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="VisionAPI.cpp" />
     <ClCompile Include="VisionEngine.cpp" />
     <ClCompile Include="YoloEngine.cpp" />
+    <ClCompile Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="CMakeLists.txt" />

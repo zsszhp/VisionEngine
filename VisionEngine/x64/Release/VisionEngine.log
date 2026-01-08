@@ -1,11 +1,90 @@
 ﻿  pch.cpp
+  BoxProcessor.cpp
   dllmain.cpp
+  HalconDecoder.cpp
+D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\HalconDecoder.cpp(22,9): error C2660: “HalconCpp::GenImageInterleaved”: 函数不接受 12 个参数
+  (编译源文件“/HalconDecoder.cpp”)
+      C:\Users\zzz\AppData\Local\Programs\MVTec\HALCON-23.11-Progress\include\halconcpp\HOperatorSet.h(1808,17):
+      参见“HalconCpp::GenImageInterleaved”的声明
+      D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\HalconDecoder.cpp(22,9):
+      尝试匹配参数列表“(HalconCpp::HObject *, uchar *const , const char [4], const int, const int, int, const char [5], const cv::MatStep, int, int, int, int)”时
+  
+D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\HalconDecoder.cpp(56,30): error C2440: “初始化”: 无法从“HalconCpp::HString”转换为“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”
+  (编译源文件“/HalconDecoder.cpp”)
+      D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\HalconDecoder.cpp(56,30):
+      没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  
+D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\HalconDecoder.cpp(58,18): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (编译源文件“/HalconDecoder.cpp”)
+  
+  Logger.cpp
+D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\Logger.cpp(35,63): error C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (编译源文件“/Logger.cpp”)
+  
+  OBBCropper.cpp
+  VisionAPI.cpp
+D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionTypes.h(28,8): error C2011: “VisionResult”:“struct”类型重定义
+  (编译源文件“/VisionAPI.cpp”)
+      D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionResult.h(6,8):
+      参见“VisionResult”的声明
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\variant(12): warning STL4038: The contents of <variant> are available only with C++17 or later.
+D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionAPI.cpp(31,16): error C2065: “VISION_OK”: 未声明的标识符
+  (编译源文件“/VisionAPI.cpp”)
+  
+D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionAPI.cpp(40,12): error C2065: “VISION_OK”: 未声明的标识符
+  (编译源文件“/VisionAPI.cpp”)
+  
+D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionAPI.cpp(52,16): error C2065: “VISION_ERR_NULL_POINTER”: 未声明的标识符
+  (编译源文件“/VisionAPI.cpp”)
+  
+D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionAPI.cpp(55,5): error C2027: 使用了未定义类型“VisionResult”
+  (编译源文件“/VisionAPI.cpp”)
+      D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionResult.h(6,8):
+      参见“VisionResult”的声明
+  
+D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionAPI.cpp(56,5): error C2027: 使用了未定义类型“VisionResult”
+  (编译源文件“/VisionAPI.cpp”)
+      D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionResult.h(6,8):
+      参见“VisionResult”的声明
+  
+D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionAPI.cpp(57,17): error C2027: 使用了未定义类型“VisionResult”
+  (编译源文件“/VisionAPI.cpp”)
+      D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionResult.h(6,8):
+      参见“VisionResult”的声明
+  
+D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionAPI.cpp(57,41): error C2027: 使用了未定义类型“VisionResult”
+  (编译源文件“/VisionAPI.cpp”)
+      D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionResult.h(6,8):
+      参见“VisionResult”的声明
+  
+D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionAPI.cpp(57,10): error C2660: “memset”: 函数不接受 2 个参数
+  (编译源文件“/VisionAPI.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vcruntime_string.h(63,15):
+      参见“memset”的声明
+      D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionAPI.cpp(57,10):
+      尝试匹配参数列表“()”时
+  
+D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionAPI.cpp(66,20): error C2065: “VISION_ERR_LOAD_IMAGE”: 未声明的标识符
+  (编译源文件“/VisionAPI.cpp”)
+  
+D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionAPI.cpp(84,20): error C2065: “VISION_ERR_CROP_FAIL”: 未声明的标识符
+  (编译源文件“/VisionAPI.cpp”)
+  
+D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionAPI.cpp(91,20): error C2065: “VISION_ERR_DECODE_FAIL”: 未声明的标识符
+  (编译源文件“/VisionAPI.cpp”)
+  
+D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionAPI.cpp(95,9): error C2027: 使用了未定义类型“VisionResult”
+  (编译源文件“/VisionAPI.cpp”)
+      D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionResult.h(6,8):
+      参见“VisionResult”的声明
+  
+D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionAPI.cpp(97,16): error C2065: “VISION_OK”: 未声明的标识符
+  (编译源文件“/VisionAPI.cpp”)
+  
+D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\VisionAPI.cpp(102,16): error C2065: “VISION_ERR_INTERNAL”: 未声明的标识符
+  (编译源文件“/VisionAPI.cpp”)
+  
   VisionEngine.cpp
   YoloEngine.cpp
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\variant(12): warning STL4038: The contents of <variant> are available only with C++17 or later.
-    正在创建库 D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\x64\Release\VisionEngine.lib 和对象 D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\x64\Release\VisionEngine.exp
-  正在生成代码
-  Previous IPDB not found, fall back to full compilation.
-  All 35 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  已完成代码的生成
-  VisionEngine.vcxproj -> D:\work\li_sheng\Carton_Palletizing_Counting\code\c++\VisionEngine\x64\Release\VisionEngine.dll

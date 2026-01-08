@@ -35,6 +35,24 @@
     <ClInclude Include="YoloTypes.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="BoxProcessor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="OBBCropper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="HalconDecoder.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="VisionResult.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="VisionAPI.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -49,6 +67,22 @@
     <ClCompile Include="YoloEngine.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="BoxProcessor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="OBBCropper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="HalconDecoder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="VisionAPI.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="CMakeLists.txt" />
